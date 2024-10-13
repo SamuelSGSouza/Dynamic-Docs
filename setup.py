@@ -1,18 +1,18 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="DynamicDocs",
-    version="0.1.0",
+    name="DynamicDoc",
+    version="0.1.3",
     author="Samuel Santos",
     author_email="samuels.g.desouza@gmail.com",
     description="Uma biblioteca para manipulação dinâmica de documentos docx.",
     long_description=long_description,
     long_description_content_type="text/markdown",  # Especifica que o README é em Markdown
     url="https://github.com/SamuelSGSouza/Dynamic-Docs",
-    packages=find_packages(),
+    packages=['DynamicDoc/'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
