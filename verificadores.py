@@ -6,7 +6,6 @@ def safe_eval(code,vars:list=[]) -> bool:
     
     # Verifica se a expressão contém apenas operações seguras
     for node in ast.walk(tree):
-        print(node)
         if isinstance(node, ast.Name) and node.id not in [var['name'] for var in vars]:
             raise ValueError(f"Invalid variable found: {node.id}")
 

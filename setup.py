@@ -11,7 +11,7 @@ setup(
     description="Uma biblioteca para manipulação dinâmica de documentos docx.",
     long_description=long_description,
     long_description_content_type="text/markdown",  # Especifica que o README é em Markdown
-    url="https://github.com/seurepositorio/dynamicdoc",
+    url="https://github.com/SamuelSGSouza/Dynamic-Docs",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,6 +21,5 @@ setup(
     python_requires='>=3.6',
     install_requires=[
         'python-docx',
-        # Outras dependências
     ],
 )
