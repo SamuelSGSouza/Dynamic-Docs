@@ -18,16 +18,20 @@ DynamicDoc é uma biblioteca Python que permite a manipulação dinâmica de doc
 Para instalar as dependências da biblioteca, rode:
 
 ```bash
-pip install DynamicDocs==0.1.0
+pip install DynamicDoc==0.1.5
 ```
 
 ## Exemplo de Uso
 
 ```python
-from dynamicdoc import DynamicDoc
+from DynamicDoc.dynamicdoc import DynamicDoc
 
 doc = DynamicDoc("template.docx",nome = "João", idade = 20, maioridade = True)
-doc.save("output.docx")
+doc.save_document("output.docx")
+
+#or
+
+document_bytes = doc.get_document()
 ```
 
 ## Documentação

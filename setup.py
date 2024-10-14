@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="DynamicDoc",
-    version="0.1.3",
+    version="0.1.5",
     author="Samuel Santos",
     author_email="samuels.g.desouza@gmail.com",
     description="Uma biblioteca para manipulação dinâmica de documentos docx.",
